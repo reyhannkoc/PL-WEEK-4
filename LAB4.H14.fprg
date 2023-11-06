@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-04 07:42:39 &#214;S"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTExLTA0OzA0OjUwOjMyIMOWUzsyNjA4"/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTExLTA0OzA3OjQyOjM5IMOWUzszOzI3Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, m" type="Integer" array="False" size=""/>
+            <assign variable="m" expression="1"/>
+            <input variable="n"/>
+            <while expression="n!=0">
+                <assign variable="m" expression="m*n"/>
+                <assign variable="n" expression="n-1"/>
+            </while>
+            <output expression="m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

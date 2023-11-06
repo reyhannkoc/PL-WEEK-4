@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 05:07:47 &#214;S"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjU3OjE2IMOWUzsyNjE2"/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA1OjA3OjQ3IMOWUzsxOzI3MjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="feet, centimeter" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the feet value&quot;" newline="True"/>
+            <input variable="feet"/>
+            <assign variable="centimeter" expression="feet/0.032808"/>
+            <output expression="&quot;The lenght in centimeter: &quot;&amp;centimeter" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

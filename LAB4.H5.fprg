@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 04:57:12 &#214;S"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjM5OjA5IMOWUzsyNjE4"/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjU3OjEyIMOWUzsxOzI3MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="fahrenheit, celcius" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the fahrenheit value&quot;" newline="True"/>
+            <input variable="fahrenheit"/>
+            <assign variable="celcius" expression="(fahrenheit - 32) * 5/9"/>
+            <output expression="&quot;Celcius degree: &quot;&amp;celcius" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

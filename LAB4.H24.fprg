@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cantu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-06 08:52:14 &#214;&#214;"/>
+        <attribute name="created" value="Y2FudHU7QlBPWDsyMDIzLTExLTA0OzAzOjE1OjEwIMOWUzsyMjU5"/>
+        <attribute name="edited" value="Y2FudHU7QlBPWDsyMDIzLTExLTA0OzAzOjM2OjIxIMOWUzsxOzIzNzI="/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTExLTA2OzA4OjUyOjE0IMOWw5Y7MTsyODU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, x" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="x" expression="1"/>
+            <while expression="a &gt; 9">
+                <assign variable="b" expression="a%10"/>
+                <output expression="x" newline="False"/>
+                <output expression="&quot;. digit&quot;" newline="True"/>
+                <output expression="b" newline="True"/>
+                <assign variable="a" expression="a/10"/>
+                <assign variable="x" expression="x+1"/>
+            </while>
+            <output expression="x" newline="False"/>
+            <output expression="&quot;. digit&quot;" newline="True"/>
+            <output expression="a" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

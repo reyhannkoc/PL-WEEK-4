@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 04:39:03 &#214;S"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjMwOjI0IMOWUzsyNjA2"/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjM5OjAzIMOWUzsxOzI3MjA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="temputure, freezingpoint" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter the temputure&quot;" newline="True"/>
+            <input variable="temputure"/>
+            <output expression="&quot;Enter the freezing number&quot;" newline="True"/>
+            <input variable="freezingpoint"/>
+            <if expression="temputure&lt;freezingpoint">
+                <then>
+                    <output expression="&quot;Temputure is below the freezing point&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Temouture is above the freezing point&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

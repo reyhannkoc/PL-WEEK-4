@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 03:57:50 &#214;S"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzAyOjM2OjEyIMOWUzsyNjA3"/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzAzOjU3OjUwIMOWUzsyOzI3MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, toplam" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number: &quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Enter another number: &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="toplam" expression="a+b"/>
+            <output expression="&quot;Toplam: &quot;&amp;toplam" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

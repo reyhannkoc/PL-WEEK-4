@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 04:30:21 &#214;S"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjE5OjUxIMOWUzsyNjEz"/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzA0OjMwOjIxIMOWUzsxOzI3MTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="N" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number &quot;" newline="True"/>
+            <input variable="N"/>
+            <if expression="N%2==0">
+                <then>
+                    <output expression="&quot; N is even &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N is odd &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

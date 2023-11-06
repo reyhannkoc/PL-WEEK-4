@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="cantu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-11-06 08:51:46 &#214;&#214;"/>
+        <attribute name="created" value="Y2FudHU7QlBPWDsyMDIzLTExLTA0OzA0OjQ4OjU2IMOWUzsyMjc2"/>
+        <attribute name="edited" value="Y2FudHU7QlBPWDsyMDIzLTExLTA0OzA0OjU3OjM0IMOWUzsyOzIzODE="/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTExLTA2OzA4OjUxOjQ2IMOWw5Y7MzsyODYx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, t, n, c" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="n" expression="a"/>
+            <assign variable="c" expression="0"/>
+            <while expression="a&gt;0">
+                <assign variable="t" expression="a%10"/>
+                <assign variable="a" expression="a/10"/>
+                <assign variable="c" expression="c*10"/>
+                <assign variable="c" expression="c+t"/>
+            </while>
+            <if expression="c == n">
+                <then>
+                    <output expression="&quot;Palindrome&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Not&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

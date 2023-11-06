@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="KARADA&#286;"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-31 10:29:40 &#214;&#214;"/>
+        <attribute name="created" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzEwOjA0OjM3IMOWw5Y7MjczOQ=="/>
+        <attribute name="edited" value="S0FSQURBxJ47S0FSQURBRzsyMDIzLTEwLTMxOzEwOjI5OjQwIMOWw5Y7MTsyODQ4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Algor&#305;thm that d&#305;v&#305;de two numbers to each other and show the rema&#305;n&#305;ng&quot;" newline="True"/>
+            <declare name="A, B, R1, R2, Q" type="Integer" array="False" size=""/>
+            <output expression="&quot;Enter a number:&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Enter another number:&quot;" newline="True"/>
+            <input variable="B"/>
+            <assign variable="R1" expression="A"/>
+            <assign variable="R2" expression="B"/>
+            <assign variable="Q" expression="0"/>
+            <if expression="A&gt;B">
+                <then>
+                    <while expression="R1&gt;=B">
+                        <assign variable="R1" expression="R1-B"/>
+                        <assign variable="Q" expression="Q+1"/>
+                    </while>
+                    <output expression="&quot;The quot&#305;ent &#305;s: &quot;&amp;Q" newline="True"/>
+                    <output expression="&quot;The rema&#305;n&#305;ng &#305;s: &quot;&amp;R1" newline="True"/>
+                </then>
+                <else>
+                    <while expression="R2&gt;=A">
+                        <assign variable="R2" expression="R2-A"/>
+                        <assign variable="Q" expression="Q+1"/>
+                    </while>
+                    <output expression="&quot;The quot&#305;ent &#305;s: &quot;&amp;Q" newline="True"/>
+                    <output expression="&quot;The rema&#305;n&#305;ng &#305;s: &quot;&amp;R2" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
